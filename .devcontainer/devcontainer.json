@@ -1,6 +1,6 @@
 {
   "name": "React JS + Tailwind Dev",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22",
   "forwardPorts": [5173],
   "customizations": {
     "vscode": {

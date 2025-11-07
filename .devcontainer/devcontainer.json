@@ -1,0 +1,22 @@
+{
+  "name": "React JS + Tailwind Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  "forwardPorts": [5173],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "humao.rest-client",
+        "rangav.vscode-thunder-client",
+        "dsznajder.es7-react-js-snippets",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense",
+        "wix.vscode-import-cost",
+        "naumovs.color-highlight"
+      ]
+    }
+  },
+  "postCreateCommand": "cd frontend && npm install"
+}
